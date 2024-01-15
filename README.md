@@ -11,7 +11,6 @@ ___
  ___
 
 [Doc ReadProcessMemory](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory) 
-
 ```cpp
 BOOL ReadProcessMemory(
     [in]  HANDLE  hProcess,
@@ -19,5 +18,18 @@ BOOL ReadProcessMemory(
     [out] LPVOID  lpBuffer,
     [in]  SIZE_T  nSize,
     [out] SIZE_T  *lpNumberOfBytesRead
+);
+```
+
+___
+
+[Doc WriteProcessMemory](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory)
+```cpp
+BOOL WriteProcessMemory(
+	[in]  HANDLE  hProcess,
+	[in]  LPVOID  lpBaseAddress,
+	[in]  LPCVOID lpBuffer,
+	[in]  SIZE_T  nSize,
+	[out] SIZE_T  *lpNumberOfBytesWritten
 );
 ```
