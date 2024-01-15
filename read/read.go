@@ -43,7 +43,7 @@ func main() {
 		procReadProcessMemory.Call(
 			processHandle,
 			addressToRead,
-			uintptr(bufferPtr),
+			bufferPtr,
 			uintptr(unsafe.Sizeof(buffer)),
 			0,
 		)
