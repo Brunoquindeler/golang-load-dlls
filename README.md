@@ -2,11 +2,11 @@
 
 ## **[ GOLANG ]** Carregando DLLs e exemplo de uso com ReadProcessMemory da kernel32.dll
 
-Os códigos neste repositório são dos exemplos passados no video de explicação de como carregar DLLs com Golang e um exemplo de como utiliza-la.
+Os códigos neste repositório são dos exemplos passados no vídeo de explicação de como carregar DLLs com Golang e um exemplo de como utiliza-la.
 
 ___
 
-[YouTube Video](link)
+[YouTube Video](https://youtu.be/Dobo_jLt50c)
 
  ___
 
