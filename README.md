@@ -7,7 +7,7 @@ Os códigos neste repositório são dos exemplos passados no vídeo de explicaç
 ___
 
 [YouTube Video](https://youtu.be/Dobo_jLt50c)
-
+[![YouTube Thumb](thumb.png)](https://youtu.be/Dobo_jLt50c)
  ___
 
 [Doc ReadProcessMemory](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory) 
